@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: admin
+  datasource:
+    username: root
+    password: lc19940204
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/admin?serverTimezone=UTC&characterEncoding=utf-8
+
+server:
+  port: 8061
+
